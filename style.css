@@ -4,7 +4,7 @@ body{
 
 #component {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     width: 320px;
     padding: 25px;
@@ -13,9 +13,16 @@ body{
 #component img{
   width: 320px;
   height: 320px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #texto{
     font-family: 'Outfit', sans-serif;
 }
+h4{
+    color: hsl(218, 44%, 22%);
+}
+p{
+    color: hsl(220, 15%, 55%);
+}
+
