@@ -15,3 +15,7 @@ body{
   height: 320px;
   border-radius: 5px;
 }
+
+#texto{
+    font-family: 'Outfit', sans-serif;
+}
