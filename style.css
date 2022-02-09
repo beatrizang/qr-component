@@ -1,5 +1,7 @@
 body{
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
 }
 
 #component {
@@ -8,6 +10,7 @@ body{
     text-align: center;
     width: 320px;
     padding: 25px;
+    margin-top: 2%;
 }
 
 #component img{
