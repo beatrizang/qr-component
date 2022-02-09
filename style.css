@@ -8,6 +8,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     text-align: center;
+    justify-content: center;
     width: 320px;
     padding: 25px;
     margin-top: 3%;
@@ -29,5 +30,21 @@ h4{
 p{
     color: hsl(220, 15%, 55%);
     font-size: 15px;
+}
+
+@media (max-width: 375px){
+    #component{
+      margin-top: 15px;
+      margin-bottom: 15px;  
+      width: 280px;
+      padding: 25px;
+      box-shadow: none;
+    }  
+
+    #component img{
+      width: 280px;
+      height: 280px;   
+    }
+
 }
 
