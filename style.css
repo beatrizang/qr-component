@@ -4,4 +4,11 @@ body{
 
 #component {
     background-color: hsl(0, 0%, 100%);
+
+}
+
+#component img{
+  width: 320px;
+  height: 320px;
+  border-radius: 5px;
 }
