@@ -13,6 +13,7 @@ body{
     padding: 25px;
     margin-top: 3%;
     box-shadow: 10px 5px 5px hsl(220, 15%, 55%);
+    margin-bottom: 0;
 }
 
 #component img{
@@ -33,17 +34,18 @@ p{
 }
 
 @media (max-width: 375px){
+    
+
     #component{
-      margin-top: 15px;
-      margin-bottom: 15px;  
-      width: 280px;
+    
+      width: 70vw;
       padding: 25px;
       box-shadow: none;
     }  
 
     #component img{
-      width: 280px;
-      height: 280px;   
+      width: 70vw;
+      height: 70vw;   
     }
 
 }
